@@ -1,0 +1,137 @@
+body {
+    background-color: #f1f1e9;
+}
+
+.container-card {
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 1em;
+}
+
+.img-perfil-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-family: poppins;
+}
+
+.hr {
+height: 2px;
+background-color: black;
+width: 30%;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.card-perfil {
+    background-color: #aae8ee !important;
+    box-shadow: 0px 20px 50px black
+}
+
+.botoes-card {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-sobre {
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: black !important;
+    font-weight: 600px;
+    color: #ffff !important;
+}
+
+#btn-projetos {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px  25px;
+    font-weight: 600px;
+    color: #ffff !important;
+}
+
+.icon-redes-sociais {
+    text-align: center;
+    padding: 10px;
+}
+
+.title-text {
+    margin-top: 1em;
+    font-weight: 600px;
+}
+
+.title-subtitle {
+    margin: 1em 0;
+}
+
+.text {
+    padding: 5px  17px;
+    text-align: justify;
+}
+
+.links-redes-sociais {
+    text-decoration: none;
+    text-align: right;
+}
+
+.links-redes-sociais i {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer-elementos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-elementos .email {
+    padding: 15px 0px 15px 0px;
+}
+
+@media (min-width: 900px) {
+
+    .container-linear {
+        background: linear-gradient(to left, #ffff 60%, #19def0 40%);
+    }
+
+    .card-col {
+        display: flex;
+        justify-content: center;
+        background-color: #ffff !important;
+        box-shadow: -10px  5px  10px  5px #292a2d;
+    }
+
+    .card-perfil {
+        background-color: #ffff;
+        color: #292a2d;
+        box-shadow: none !important;
+        width: 18em;
+        border: none !important;
+    }
+
+    .btn-card {
+        color: black !important;         
+    }
+
+    .text-body {
+        box-shadow: none;
+    }
+
+    .text {
+        max-width: 430px;
+        vertical-align: middle;
+        margin-top: 2em;
+    }
+
+    .footer-elementos {
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
